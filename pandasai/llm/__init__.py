@@ -6,7 +6,7 @@ from .google_vertexai import GoogleVertexAI
 from .huggingface_text_gen import HuggingFaceTextGen
 from .langchain import LangchainLLM
 from .openai import OpenAI
-
+from .outlines import Outlines
 __all__ = [
     "LLM",
     "AzureOpenAI",
@@ -16,4 +16,5 @@ __all__ = [
     "GoogleGemini",
     "HuggingFaceTextGen",
     "LangchainLLM",
+    "Outlines"
 ]
